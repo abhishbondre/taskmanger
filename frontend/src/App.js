@@ -5,7 +5,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [text, setText] = useState("");
 
-  const API = "http://98.80.143.7/api/tasks";
+  const API = "http://98.80.143.7:5000/api/tasks";
 
   // GET tasks
   const getTasks = async () => {
